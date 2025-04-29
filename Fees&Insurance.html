@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Fees & Insurance</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/kustum.css">
+     <link rel="stylesheet" href="css/Fees&Insurance.css">
+     <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+     <!-- header start -->
+     <header class="container-fluid">
+          <div class="container">
+               <div class="row align-items-center justify-content-between py-4 header">
+                    <div class="col-2 ">
+                         <img src="img/logo.webp" width="140px">
+                    </div>
+                    <div class="col-10  justify-content-end d-none d-sm-flex d-md-flex">
+                         <ul class="list-unstyled align-items-center mb-0 ul-li gap-4 d-none d-xxl-flex ">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="aboutus.html">About Kustom Rehab</a></li>
+                              <li><a href="Services.html">Services</a></li>
+                              <li><a href="Meet-Dr-Alisa-K.html">Meet Dr. Alisa K</a></li>
+                              <li><a href="Contactus.html">Contact Us</a></li>
+                              <li><a href="Fees&Insurance.html">Fees & Insurance</a></li>
+                              <li><a href="faq.html">FAQs</a></li>
+                         </ul>
+                         <!-- <button class="btn btn-green ms-4 text-wrap">Request a Kustom Consultation</button> -->
+                         <!-- Button trigger modal -->
+                         <!-- Button trigger modal -->
+                         <button type="button" class="btn btn-green ms-4 text-wra" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal">
+                              Request a Kustom Consultation
+                         </button>
+
+                         <!-- Modal -->
+                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                              aria-hidden="true">
+                              <div class="modal-dialog">
+                                   <div class="modal-content">
+                                        <div class="modal-header">
+                                             <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                                  Request a <span class="text-green">Kustom Consultation</span>
+                                             </h1>
+                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                  aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                             <form class="">
+                                                  <div class="d-flex gap-3">
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="name" class="fs-15">Name</label><br>
+                                                            <input id="name" type="text" name="name"
+                                                                 placeholder="enter name" class="f-border form-control">
+                                                       </div>
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="Email" class="fs-15">Email Address</label><br>
+                                                            <input id="Email" type="email" name="Email"
+                                                                 placeholder="enter email" width="50%"
+                                                                 class="f-border form-control">
+                                                       </div>
+                                                  </div>
+                                                  <div class="form1" style="width: 100%;">
+                                                       <label for="dob" class="fs-15">Date Of Birth</label><br>
+                                                       <input id="dob" type="date" name="dob" placeholder="enter dob"
+                                                            class="f-border form-control">
+                                                  </div>
+                                                  <div class="d-flex gap-3">
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="phonenumber" class="fs-15">phone
+                                                                 number</label><br>
+                                                            <input id="phonenumber" type="number" name="phonenumber"
+                                                                 class="f-border form-control">
+                                                       </div>
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="city" class="fs-15">City</label><br>
+                                                            <select style="width: 100%;" class="f-border form-control">
+                                                                 <option>surat</option>
+                                                                 <option>gujarat</option>
+                                                                 <option>bhavanagar</option>
+                                                            </select>
+                                                       </div>
+                                                  </div>
+                                                  <div class="d-flex gap-3">
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="state" class="fs-15">state</label><br>
+                                                            <select style="width: 100%;" class="f-border form-control">
+                                                                 <option>qqq</option>
+                                                                 <option>aaaa</option>
+                                                                 <option>ssss</option>
+                                                            </select>
+                                                       </div>
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label id="reason" class="fs-15">Reason for Consultation
+                                                            </label><br>
+                                                            <input for="reason" type="text" name="reason"
+                                                                 class="f-border form-control">
+                                                       </div>
+                                                  </div>
+                                                  <div class="form1" style="width: 100%;">
+                                                       <label id="text-area" class="fs-15" style="width: 100%">How did
+                                                            you hear about Kustom Rehab?</label>
+                                                       <textarea for="text-area" rows="2" style="width: 100%;"
+                                                            class="f-border form-control"></textarea>
+                                                  </div>
+                                                  <div class="d-flex" style="width: 100%;">
+                                                       <input type="checkbox" id="ck">
+                                                       <label for="ck">have read and agreed to the Privacy
+                                                            Policy and Terms of Use that I am at least 13 and have the
+                                                            authority to make this request</label>
+                                                  </div>
+                                             </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                             <button type="button" class="btn btn-green"
+                                                  data-bs-dismiss="modal">Send</button>
+                                             <p style="font-weight: 700;"></p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </header>
+     <!-- header end -->
+
+     <!-- section 1 start -->
+     <section class="container-fluid fi-sec1-bg">
+          <div class="container">
+               <div class=" text-center py-100">
+                    <h2>Fees & Insurance</h2>
+               </div>
+          </div>
+     </section>
+     <!-- section 1 end -->
+
+     <!-- section 2 start -->
+     <section class="container-fluid">
+          <div class="container">
+               <div class="row py-5 align-items-center">
+                    <div class="col-12 col-lg-6">
+                         <h2>Insurance </h2>
+                         <p>Kustom Rehab is an out of network provider for all PPO insurance plans. At the end of every
+                              month, Kustom Rehab will provide you with an invoice (also known as a “superbill”), which
+                              you can submit to your insurance company for reimbursement. Typically, you pay the full
+                              fee upfront and receive a percentage of it back, with the amount varying from plan to
+                              plan.</p>
+                         <P>In order to get an accurate idea of your out-of-network insurance benefits, here are some
+                              questions you can ask your insurance provider:</P>
+                         <P>Call the number on your insurance card and ask:</P>
+                         <ul class="text-gray">
+                              <li>What type of health plan it is?</li>
+                              <li>What does the policy cover?</li>
+                              <li>What the policy does not cover?</li>
+                              <li>Does your health insurance policy cover routine tests? </li>
+                              <li>How much does the plan cost? </li>
+                              <li>How is the policy premium determined?</li>
+                              <li>How much money will you have to pay for availing medical care?</li>
+                              <li>Will you be able to avail of treatment from your preferred doctor?</li>
+                         </ul>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                         <img src="img/fi-sec2.webp" width="100%">
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- section 2 end -->
+
+     <!-- footer start -->
+     <footer class="container-fluid footer-bg">
+          <div class="container py-5">
+               <div class="row row-gap-3">
+                    <div class="col-12 col-sm-6 col-md-3">
+                         <img src="img/f-logo.webp" width="30%">
+                         <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                         <div class="d-flex column-gap-3 social-icon">
+                              <img src="img/f-facebook.webp" width="50px">
+                              <img src="img/f-linkedin.webp" width="50px">
+                              <img src="img/f-twitter.webp" width="50px">
+                              <img src="img/f-insta.webp" width="50px">
+                         </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 text-white">
+                         <h5>Contact US</h5>
+                         <p>Phone: 818-835-3331</p>
+                         <p>info@kustomrehab.com</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 text-white">
+                         <h5>Hours</h5>
+                         <p>Friday- Sunday: 8:00 am - 5:00 pm</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 text-white">
+                         <h5>links</h5>
+                         <p>Privacy Policy</p>
+                         <p>Terms & Conditions</p>
+                         <p>Contact Us</p>
+                    </div>
+               </div>
+          </div>
+     </footer>
+     <!-- footer end -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery.min.js"></script>
+     <script src="js/owl.carousel.js"></script>
+     <script src="js/kustum.js"></script>
+</body>
+
+</html>

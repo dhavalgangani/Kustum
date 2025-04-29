@@ -1,0 +1,8 @@
+.cont-sec1-bg{background: url(../img/cont-sec1-bg.webp);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;}
+
+hr{margin: 0;}
+p{margin: 0;}
+p{padding: 10px 0;}

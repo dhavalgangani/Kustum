@@ -1,0 +1,19 @@
+.faq-sec1-bg{background: url(../img/faq-sec1-bg.webp);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;}
+
+
+.accordion-button::after{background: url(../img/icon.webp);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+    }
+
+.accordion-button:not(.collapsed)::after {
+     background: url(../img/xicon.webp);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     
+ }

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Kustoom</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/kustum.css">
+     <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+     <!-- header start -->
+     <header class="container-fluid">
+          <div class="container">
+               <div class="row align-items-center justify-content-between py-4 header">
+                    <div class="col-2 ">
+                         <img src="img/logo.webp" width="140px">
+                    </div>
+                    <div class="col-10  justify-content-end d-none d-sm-flex d-md-flex">
+                         <ul class="list-unstyled align-items-center mb-0 ul-li gap-4 d-none d-xxl-flex ">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="aboutus.html">About Kustom Rehab</a></li>
+                              <li><a href="Services.html">Services</a></li>
+                              <li><a href="Meet-Dr-Alisa-K.html">Meet Dr. Alisa K</a></li>
+                              <li><a href="Contactus.html">Contact Us</a></li>
+                              <li><a href="Fees&Insurance.html">Fees & Insurance</a></li>
+                              <li><a href="faq.html">FAQs</a></li>
+                         </ul>
+                         <!-- <button class="btn btn-green ms-4 text-wrap">Request a Kustom Consultation</button> -->
+                         <!-- Button trigger modal -->
+                         <!-- Button trigger modal -->
+                         <button type="button" class="btn btn-green ms-4 text-wra" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal">
+                              Request a Kustom Consultation
+                         </button>
+
+                         <!-- Modal -->
+                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                              aria-hidden="true">
+                              <div class="modal-dialog">
+                                   <div class="modal-content">
+                                        <div class="modal-header">
+                                             <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                                  Request a <span class="text-green">Kustom Consultation</span>
+                                             </h1>
+                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                  aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                             <form class="">
+                                                  <div class="d-flex gap-3">
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="name" class="fs-15">Name</label><br>
+                                                            <input id="name" type="text" name="name"
+                                                                 placeholder="enter name" class="f-border form-control">
+                                                       </div>
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="Email" class="fs-15">Email Address</label><br>
+                                                            <input id="Email" type="email" name="Email"
+                                                                 placeholder="enter email" width="50%"
+                                                                 class="f-border form-control">
+                                                       </div>
+                                                  </div>
+                                                  <div class="form1" style="width: 100%;">
+                                                       <label for="dob" class="fs-15">Date Of Birth</label><br>
+                                                       <input id="dob" type="date" name="dob" placeholder="enter dob"
+                                                            class="f-border form-control">
+                                                  </div>
+                                                  <div class="d-flex gap-3">
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="phonenumber" class="fs-15">phone
+                                                                 number</label><br>
+                                                            <input id="phonenumber" type="number" name="phonenumber"
+                                                                 class="f-border form-control">
+                                                       </div>
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="city" class="fs-15">City</label><br>
+                                                            <select style="width: 100%;" class="f-border form-control">
+                                                                 <option>surat</option>
+                                                                 <option>gujarat</option>
+                                                                 <option>bhavanagar</option>
+                                                            </select>
+                                                       </div>
+                                                  </div>
+                                                  <div class="d-flex gap-3">
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label for="state" class="fs-15">state</label><br>
+                                                            <select style="width: 100%;" class="f-border form-control">
+                                                                 <option>qqq</option>
+                                                                 <option>aaaa</option>
+                                                                 <option>ssss</option>  
+                                                            </select>
+                                                       </div>
+                                                       <div class="form1" style="width: 50%;">
+                                                            <label id="reason" class="fs-15">Reason for Consultation
+                                                            </label><br>
+                                                            <input for="reason" type="text" name="reason"
+                                                                 class="f-border form-control">
+                                                       </div>
+                                                  </div>
+                                                  <div class="form1" style="width: 100%;">
+                                                       <label id="text-area" class="fs-15" style="width: 100%">How did
+                                                            you hear about Kustom Rehab?</label>
+                                                       <textarea for="text-area" rows="2" style="width: 100%;"
+                                                            class="f-border form-control"></textarea>
+                                                  </div>
+                                                  <div class="d-flex" style="width: 100%;">
+                                                       <input type="checkbox" id="ck" >
+                                                       <label for="ck">have read and agreed to the Privacy
+                                                            Policy and Terms of Use that I am at least 13 and have the
+                                                            authority to make this request</label>
+                                                  </div>
+                                             </form>
+                                        </div>
+                                        <div class="modal-footer" >
+                                             <button type="button" class="btn btn-green"
+                                                  data-bs-dismiss="modal">Send</button>
+                                             <p style="font-weight: 700;"></p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </header>
+     <!-- header end -->
+
+     <!-- section 1 start -->
+     <section class="container-fluid sec1-bg">
+          <div class="container py-5">
+               <div class="row align-items-center sec1 row-gap-3 ">
+                    <div class="col-sm-12 col-lg-6 col-xl-6 ps-3 sec1">
+                         <h2 class="text-green">For Better Future</h2>
+                         <p class="text-white">I apologize, but I am not aware of any specific term or concept called
+                              "Kustom
+                              Rehabilitation." It is possible that this may be a proprietary name or a specific program
+                              offered by a particular organization or company, but without more information or context,
+                              I am unable to provide a more detailed response. If you have additional information or
+                              context about what you are referring to, please let me know and I will do my best to
+                              assist</p>
+                         <div class="d-flex column-gap-3 row-gap-3 d-sm-flex flex-wrap d-md-flex d-lg-flex d-xl-flex">
+                              <button class="btn btn-green text-nowrap">Request a Kustom Consultation</button>
+                              <button class="btn btn-transperant text-nowrap">Learn more about Kustom Rehab</button>
+                         </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6 col-xl-6 text-center">
+                         <img src="img/sec1.webp" width="90%">
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- section 1 end -->
+
+     <!-- section 2 start -->
+     <section class="container-fluid">
+          <div class="container py-5">
+               <div class="row row-gap-3 flex-lg-nowrap overflow-x-scroll">
+                    <div class="col-12 col-sm-6 col-xl-3 col-lg-4">
+                         <div class="d-flex align-items-center p-3 sec2-shadow rounded-4">
+                              <img src="img/sec2-1.webp" width="100px">
+                              <h4>Balance</h4>
+                         </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3 col-lg-4">
+                         <div class="d-flex align-items-center p-3 sec2-shadow rounded-4">
+                              <img src="img/sec2-2.webp" width="100px">
+                              <h4>Agility</h4>
+                         </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3 col-lg-4">
+                         <div class="d-flex align-items-center p-3 sec2-shadow rounded-4">
+                              <img src="img/sec2-3.webp" width="100px">
+                              <h4>Strength</h4>
+                         </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3 col-lg-4">
+                         <div class="d-flex align-items-center p-3 sec2-shadow rounded-4">
+                              <img src="img/sec2-4.webp" width="100px">
+                              <h4>Endurance</h4>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- section 2 end -->
+
+     <!-- section 3 start -->
+     <section class="container-fluid sec3-bg">
+          <div class="container py-5">
+               <div class="">
+                    <div class="text-center">
+                         <h2 class="text-white fw-bold pb-3">Our Services</h2>
+                    </div>
+                    <div class="row row-gap-3">
+                         <div class="col-12 col-lg-6 col-md-6 col-xl-3">
+                              <div class="bg-white rounded-5 sec3 h-100">
+                                   <div class="rounded-3 p-3 card-3 position-relative">
+                                        <img src="img/sec3-1.webp" width="100%" class="rounded-5">
+                                        <img src="img/sec3-arrow.webp" width="12%" class="position-absolute">
+                                   </div>
+                                   <div class="p-3">
+                                        <h4>Arthritis Therapy</h4>
+                                        <p class="m-0">As Doctors of Physical Therapy, we are the industry leaders in
+                                             movement...</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-lg-6 col-md-6 col-xl-3">
+                              <div class="bg-white rounded-5 sec3 h-100">
+                                   <div class="rounded-3 p-3 card-3 position-relative">
+                                        <img src="img/sec3-2.webp" width="100%" class="rounded-5">
+                                        <img src="img/sec3-arrow.webp" width="12%" class="position-absolute">
+                                   </div>
+                                   <div class="p-3">
+                                        <h4>Orthopedic Therapy</h4>
+                                        <p class="m-0">BASE Training and Physical Therapy offers fitness and strength
+                                             training...</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-lg-6 col-md-6 col-xl-3">
+                              <div class="bg-white rounded-5 sec3 h-100">
+                                   <div class="rounded-3 p-3 card-3 position-relative">
+                                        <img src="img/sec3-3.webp" width="100%" class="rounded-5">
+                                        <img src="img/sec3-arrow.webp" width="12%" class="position-absolute">
+                                   </div>
+                                   <div class="p-3">
+                                        <h4>Balance & Fall Prevention</h4>
+                                        <p class="m-0">Lay back, relax and we will help you regain your flexibility and
+                                             range...</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-lg-6 col-md-6 col-xl-3">
+                              <div class="bg-white rounded-5 sec3 h-100">
+                                   <div class="rounded-3 p-3 card-3 position-relative">
+                                        <img src="img/sec3-4.webp" width="100%" class="rounded-5">
+                                        <img src="img/sec3-arrow.webp" width="12%" class="position-absolute">
+                                   </div>
+                                   <div class="p-3">
+                                        <h4>Pre & Post Surgery
+                                             Rehabilitation</h4>
+                                        <p class="m-0">Myofascial Decompression treats connective tissue disorders and
+                                             injuries...</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="text-center pt-4">
+                         <button class="btn btn-green ">View All Services</button>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- section 3 end -->
+
+     <!-- section 4 start -->
+     <section class="container-fluid">
+          <div class="container py-5">
+               <div class="text-center ">
+                    <h2 class="fw-bold pb-3 m-0">Testimonials</h2>
+               </div>
+               <div class="owl-carousel testimonials-carousel owl-theme">
+                    <div class="item">
+                         <div class="row align-items-center">
+                              <div class="col-12 col-lg-6">
+                                   <img src="img/quotes.webp" id="quote-img">
+                                   <p class="fs-15">As a practicing Physician in the community, it is my honor to have
+                                        been a patient
+                                        at this facility. These guys are knowledgeable, professional, compassionate and
+                                        most important of all.....trustworthy!</p>
+                                   <p class="fs-30 fw-semibold">Dr. Joel S.</p>
+                              </div>
+                              <div class="col-12 col-lg-6">
+                                   <img src="img/testimonial-4.webp" width="100%">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- section 4 end -->
+
+     <!-- section 5 start -->
+     <section class="container-fluid">
+          <div class="container sec5-bg rounded-3 my-5">
+               <div class="row text-center py-4 px-3 row-gap-3 align-items-center">
+                    <div class="col-12 col-md-6 text-md-start ">
+                         <h2 class="text-white mb-0">Live a healthy, active, and pain-free lifestyle</h2>
+                    </div>
+                    <div class="col-12 col-md-6 text-md-end">
+                         <button class="btn btn-white text-green">Contact Us</button>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- section 5 end -->
+
+     <!-- footer start -->
+     <footer class="container-fluid footer-bg">
+          <div class="container py-5">
+               <div class="row row-gap-3">
+                    <div class="col-12 col-sm-6 col-md-3">
+                         <img src="img/f-logo.webp" width="30%">
+                         <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                         <div class="d-flex column-gap-3 social-icon">
+                              <img src="img/f-facebook.webp" width="50px">
+                              <img src="img/f-linkedin.webp" width="50px">
+                              <img src="img/f-twitter.webp" width="50px">
+                              <img src="img/f-insta.webp" width="50px">
+                         </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 text-white">
+                         <h5>Contact US</h5>
+                         <p>Phone: 818-835-3331</p>
+                         <p>info@kustomrehab.com</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 text-white">
+                         <h5>Hours</h5>
+                         <p>Friday- Sunday: 8:00 am - 5:00 pm</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 text-white">
+                         <h5>links</h5>
+                         <p>Privacy Policy</p>
+                         <p>Terms & Conditions</p>
+                         <p>Contact Us</p>
+                    </div>
+               </div>
+          </div>
+     </footer>
+     <!-- footer end -->
+     
+
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery.min.js"></script>
+     <script src="js/owl.carousel.js"></script>
+     <script src="js/kustum.js"></script>
+</body>
+
+</html>

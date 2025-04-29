@@ -1,0 +1,90 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: "Poppins";}
+@import url('https://fonts.googleapis.com/css2?family=Mandali&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.text-mandali{font-family: "Mandali", sans-serif;}
+
+/* comman css */
+.text-green{color: #56D6A2;}
+.p-15{padding: 15px;}
+.fs-15{font-size: 15px;}
+.fs-10{font-size: 10px;}
+.fs-30{font-size: 30px;}
+.px-100{padding: 0 100px;}
+.py-100{padding: 100px 0;}
+.px-50{padding: 0 50px;}
+.footer-bg{background-color: #525252;}
+/* comman css */
+
+/* form css */
+.f-border{border-color: #B1B1B1; border-radius: 05px; padding: 5px;}
+/* form css */
+
+
+/* header */
+.btn-green{background: linear-gradient(134.16deg, #56d6a2 0%, #2db981 92.59%); border-radius: 10px; padding: 12px 18px;}
+.ul-li li{white-space: nowrap; overflow: hidden;}
+.ul-li li a{text-decoration: none; color: black;}
+/* header */
+
+/* sec1 */
+.btn-transperant{background: rgba(255, 255, 255, 0.25);border-radius: 10px; padding: 12px 18px;}
+.sec1-bg{background-image: url(../img/sec1-bg.webp);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;}
+/* sec1 */
+
+/* sec2 */
+.sec2-shadow{box-shadow: 0px -0.10999999940395355px 30px rgba(0, 0, 0, 0.18);}
+/* sec2 */
+
+/* sec3 */
+.sec3-bg{background-image: url(../img/sec3-bg.webp);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;}
+.position-absolute{position: absolute; bottom: -5px; right: 40px;}
+/* sec3 */
+
+/* sec4 */
+img#quote-img{width: 80px !important;}
+/* sec4 */
+
+/* sec5 */
+.sec5-bg{background-image: url(../img/sec5-bg.webp);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;}
+.btn-white{background-color: white; padding: 10px 20px;}
+
+/* sec5 */
+
+
+/* responsive css */
+@media only screen and (max-width: 1400px){
+     .fs-15{font-size: 25px}
+     .form1 .fs-15{font-size: 15px}
+     .fs-30{font-size: 45px}
+}
+@media only screen and (max-width: 1200px){
+}
+@media only screen and (max-width: 992px){
+     .sec1 img{width: 75%;}
+     .px-50{padding: 0 50px;}
+     
+}
+@media only screen and (max-width: 768px){
+     .btn-green{font-size: 14px;}
+     .btn-transperant{font-size: 14px;}
+     .sec1 img{width: 80%;}
+     .sec3{border-radius: 20px !important;}
+     .card-3 img{border-radius: 20px !important;}
+     .fs-15{font-size: 15px}
+     .fs-30{font-size: 30px}
+     
+}
+@media only screen and (max-width: 576px){
+     .btn-green{font-size: 12px;}
+     .btn-transperant{font-size: 12px;}
+     .sec3{border-radius: 15px !important;}
+     .card-3 img{border-radius: 15px !important;}
+}
